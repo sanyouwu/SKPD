@@ -27,7 +27,7 @@ An illustration of estimated tensor coefficients when the true signal is “one-
 
 
 
-![brain_region_one_ball](https://github.com/SanyouWu/SKPD/blob/main/brain_region_one_balls.png)
+![brain_region_one_ball](https://github.com/SanyouWu/SKPD/blob/main/brain_region_one_ball.png)
 
 ![brain_region_2_balls](https://github.com/SanyouWu/SKPD/blob/main/brain_region_2_balls.png)
 
