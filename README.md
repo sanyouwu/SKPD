@@ -4,7 +4,6 @@
 
 Wu, S. and Feng, L. (2021)  SKPD: A General Framework of Signal Region Detection in Image Regression".
 
-JRSSB, revision and resubmission
 
 ## Environment and usage
 
@@ -17,7 +16,7 @@ The usage refer to the **Examples.ipynb**
 
 ##  Matrix example shows
 
-An illustration of estimated coefficients $ \hat{C} \in\mathbb{R}^{128\times 128}$ in the linear model simulation with $n=1000$ and noise level $\sigma = 1$. From left to right columns: True signals; Matrix Regression; Tensor regression; STGP; our 1-term SKPD; 3-term SKPD.
+An illustration of estimated coefficients $ \hat{C} \in\mathbb{R}^{128\times 128}$ in the linear model simulation with $n=1000$ and noise level $\sigma = 1$. From left to right columns: True signals; our 1-term SKPD; 3-term SKPD.
 
 ![matrix_examples](https://github.com/SanyouWu/SKPD/blob/main/matrix_examples.png)
 
