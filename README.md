@@ -21,6 +21,9 @@ An illustration of estimated coefficients $ \hat{C} \in\mathbb{R}^{128\times 128
 
 ![matrix_examples](https://github.com/SanyouWu/SKPD/blob/main/matrix_examples.png)
 
+## Tensor example shows
+
+
 ## Human brain examples
 
 An illustration of estimated tensor coefficients when the true signal is “one-ball” (top three rows) and “two-balls” (bottom three rows) with $n= 1500$ and noise level $\sigma = 3$.The first row is true signal in a brain MRI template and its slice from the coronal, sagittal and horizontal sections. The second and third rows are one-term SKPD and 3-terms SKPD results respectively.
