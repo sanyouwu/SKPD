@@ -96,19 +96,9 @@ def bi_haar(x):
 
 def RELU(x):
     return np.maximum(0,x)
-def linear(x):
-    return x
-def square(x):
-	return 1/20 * x**2
-
-def neg_relu(x):
-    return np.minimum(0,x)
 
 def sigmoid(x):
     return (1/(1+np.exp(-0.1*x))) * 20
-
-def soft_th(X,tau = 15):
-    return np.sign(X) * np.maximum((np.abs(X) - tau), np.zeros(X.shape))
 
 def func_kron_ab(a_hat,b_hat,R,m1,n1,m2,n2,d1=1,d2 = 1):
     Ra_hat = a_hat.reshape(R,-1)
@@ -164,13 +154,6 @@ def fun_average(data,num = 7):
         if i%num ==0:
             new_data.append(np.mean(np.array(tmp),axis = 0))
             tmp = []
-    return new_data
-
-def fun_preprocess(data):
-    new_data = []
-    for Xi in data:
-        fro = la.norm(Xi)
-        new_data.append(Xi/fro)
     return new_data
 
 
