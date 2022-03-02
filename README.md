@@ -12,7 +12,13 @@ The following environments are required:
 - Python 3.7 (anaconda is preferable)
 - k3d (for visualize tensor case, not necessarily required)
 
-The usage refer to the **Examples.ipynb**
+### Code
+
+To install it,
+```
+pip install SKPD
+```
+The detailed usage refer to the **Examples.ipynb**
 
 ##  Matrix example shows
 
